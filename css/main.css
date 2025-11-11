@@ -1,96 +1,28 @@
-.container {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.field {
   width: 80%;
   max-width: 1200px;
-  margin: 10px auto;
+  margin: 0 auto;
 }
 
-.block--list {
+.fl {
   display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  list-style: none;
-  justify-content: center;
-}
-.block--list > li {
-  width: 275px;
-}
-@media (max-width: 1366px) {
-  .block--list > li {
-    width: 250px;
-  }
-}
-@media (max-width: 992px) {
-  .block--list > li {
-    width: 200px;
-  }
-}
-@media (max-width: 600px) {
-  .block--list > li {
-    width: 250px;
-  }
 }
 
-.block {
-  background-color: #fefefe;
-  border: 1px solid #000;
-  padding: 8px;
-  border-radius: 6px;
-  position: relative;
+.ai-agents {
+  margin-top: 120px;
 }
-.block--modifier {
-  background-color: #f5ebd7;
-}
-.block--label {
-  position: absolute;
-  top: 20px;
-  left: 0;
-  padding: 5px;
-  background-color: #426b3d;
-  color: #fefefe;
-  font-family: "Segoe UI, Tahoma, Geneva, Verdana, sans-serif";
-}
-.block--image {
-  width: 100%;
-  margin-bottom: 12px;
-}
-.block--head {
-  text-transform: uppercase;
-  font-size: 22px;
-  font-family: "Arial, Helvetica, sans-serif";
-  margin-bottom: 12px;
-}
-.block--description {
-  font-size: 14px;
-  line-height: 18px;
-  font-family: "Gill Sans, Calibri, Trebuchet MS, sans-serif";
-  margin-bottom: 12px;
-}
-.block .block-buttons {
-  display: flex;
-  justify-content: space-between;
-  gap: 5px;
-  margin-bottom: 12px;
-}
-
-.btn {
-  width: 100%;
-  padding: 9px;
-  border: 1px solid #000;
-  border-radius: 0;
-  font-family: "Arial, Helvetica, sans-serif";
-}
-.btn:hover:not([disabled]) {
-  box-shadow: 0 0 3px 1px #000;
-  cursor: pointer;
-}
-.btn[disabled] {
-  opacity: 0.3;
-}
-.btn.pr {
-  background-color: #000;
-  color: #fefefe;
-}
-.btn.sc {
-  background-color: #fefefe;
-  color: #000;
+.ai-agents__title {
+  margin-bottom: 52px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

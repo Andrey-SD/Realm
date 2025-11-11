@@ -1,0 +1,13 @@
+.ai-agents {
+  margin-top: $indent-lg;
+  
+  &__title {
+    margin-bottom: $indent-sm;
+    font-family: $font-inter;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0;
+    text-align: center;
+  }
+}
