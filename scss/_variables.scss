@@ -1,20 +1,10 @@
 // Кольори
-$color-white: #fefefe;
-$color-black: #000;
-$color-primary: #426b3d;
-$color-modifier-bg: #f5ebd7;
+$font-color-light: #ffffff;
+$font-color-dark: #222222;
+$gr-bg-color: #eeeeee;
 
 // Шрифти
-$font-sans: 'Arial, Helvetica, sans-serif';
-$font-label: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif';
-$font-desc: 'Gill Sans, Calibri, Trebuchet MS, sans-serif';
+$font-inter: 'Inter', Arial, Helvetica, sans-serif;
 
 // Відступи
-$gap: 5px;
-$padding-block: 8px;
-$btn-padding: 9px;
-
-// Розміри блоків
-$block-width-default: 275px;
-$block-width-xl: 250px;
-$block-width-md: 200px;
+$top-indent: 120px;
