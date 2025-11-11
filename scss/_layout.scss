@@ -1,0 +1,29 @@
+.container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 10px auto;
+}
+
+.block--list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $gap;
+  list-style: none;
+  justify-content: center;
+
+  > li {
+    width: $block-width-default;
+
+    @media (max-width: 1366px) {
+      width: $block-width-xl;
+    }
+
+    @media (max-width: 992px) {
+      width: $block-width-md;
+    }
+
+    @media (max-width: 600px) {
+      width: $block-width-xl;
+    }
+  }
+}

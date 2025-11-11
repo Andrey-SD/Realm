@@ -1,0 +1,26 @@
+.btn {
+  width: 100%;
+  padding: $btn-padding;
+  border: 1px solid $color-black;
+  border-radius: 0;
+  font-family: $font-sans;
+
+  &:hover:not([disabled]) {
+    box-shadow: 0 0 3px 1px $color-black;
+    cursor: pointer;
+  }
+
+  &[disabled] {
+    opacity: 0.3;
+  }
+
+  &.pr {
+    background-color: $color-black;
+    color: $color-white;
+  }
+
+  &.sc {
+    background-color: $color-white;
+    color: $color-black;
+  }
+}
