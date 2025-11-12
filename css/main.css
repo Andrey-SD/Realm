@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
 .field {
   width: 80%;
   max-width: 1200px;
@@ -16,6 +20,18 @@ a {
 
 .fl {
   display: flex;
+}
+
+.header__container {
+  justify-content: space-between;
+}
+.header__logo, .header__link {
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 1rem;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #ffffff;
 }
 
 .ai-agents {

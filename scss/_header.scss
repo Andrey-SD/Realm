@@ -1,0 +1,15 @@
+.header {
+  &__container {
+    justify-content: space-between;
+  }
+
+  &__logo,
+  &__link {
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 1rem;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: $font-color-light;
+  }
+}
