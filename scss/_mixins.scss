@@ -1,0 +1,7 @@
+// _mixins.scss
+@mixin text-base() {
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: $font-color-light;
+}

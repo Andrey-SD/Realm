@@ -1,15 +1,44 @@
+.bg {}
+
 .header {
+  background-color: #000000;
+
   &__container {
     justify-content: space-between;
+    align-items: center;
+    height: 80px;
+  }
+
+  &__left,
+  &__list {
+    gap: 32px;
+    align-items: center;
+  }
+
+  &__logo {
+    align-items: center;
+    font-size: 1.5rem;
+  }
+
+  &__logo>img {
+    width: 1.5rem;
+  }
+
+  &__link {
+    font-size: 16px;
   }
 
   &__logo,
   &__link {
-    font-weight: 600;
-    font-style: Semi Bold;
-    font-size: 1rem;
-    line-height: 150%;
-    letter-spacing: 0%;
-    color: $font-color-light;
+    @include text-base;
+  }
+
+  &__list {
+    list-style: none;
+  }
+
+  &__buttons {
+    align-items: center;
+    gap: 1.5rem;
   }
 }
