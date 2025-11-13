@@ -58,6 +58,51 @@ body {
   gap: 1.5rem;
 }
 
+.banner {
+  background-image: url(../img/bannner-bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-bottom: 57px;
+}
+.banner__container {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.banner__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 120px;
+  padding-bottom: 24px;
+}
+.banner__subtitle {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 52px;
+}
+.banner__logos {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ffffff;
+  align-items: center;
+}
+.banner__logos__images {
+  width: 80%;
+}
+
 .btn {
   display: inline-block;
   font-weight: 600;
