@@ -10,7 +10,7 @@
   }
 
   &__title {
-    @include section-heading($font-color-light);
+    @include heading($font-color-light, $fs-heading);
     padding-top: $indent-lg;
     padding-bottom: 24px;
   }
