@@ -11,7 +11,7 @@
 
   &__title {
     @include heading($font-color-light, $fs-heading);
-    padding-top: $indent-lg;
+    padding-top: $indent-md;
     padding-bottom: 24px;
   }
 
