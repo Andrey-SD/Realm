@@ -7,10 +7,10 @@
 }
 
 
-@mixin section-heading($color) {
+@mixin heading($color, $font-size) {
   font-family: $font-inter;
   font-weight: 700;
-  font-size: $fs-heading;
+  font-size: $font-size;
   line-height: 1.2;
   letter-spacing: 0;
   text-align: center;
@@ -24,5 +24,15 @@
   line-height: 1.5;
   letter-spacing: 0;
   text-align: center;
+  color: $color;
+}
+
+@mixin side-description($color, $font-size, $align, $weight: 400) {
+  font-family: $font-inter;
+  font-weight: $weight;
+  font-size: $font-size;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: $align;
   color: $color;
 }
