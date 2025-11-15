@@ -58,58 +58,169 @@
   <!-- </div> -->
 
 
-  <section class="ai-agents field">
-    <h2 class="ai-agents__title">AI agents for revenue teams</h2>
+  <section class="ai-agents">
+    <div class="field">
+      <h2 class="ai-agents__title">AI agents for revenue teams</h2>
 
-    <div class="cards fl">
-      <div class="card">
-        <img class="card__image" src="img/card-1.png" alt="AI Agent 1">
-        <div class="card__content">
-          <h3 class="card__title">Rapid answers to technical and product questions</h3>
-          <p class="card__description">Rapid answers to technical and product questions
-            Empower your customer-facing teams with 24/7 guidance on product features, technical details, use cases, and
-            more.</p>
-          <a class="card__link-gs">Get started for free</a>
+      <div class="cards fl">
+        <div class="card">
+          <img class="card__image" src="img/card-1.png" alt="AI Agent 1">
+          <div class="card__content">
+            <h3 class="card__title">Rapid answers to technical and product questions</h3>
+            <p class="card__description">Rapid answers to technical and product questions
+              Empower your customer-facing teams with 24/7 guidance on product features, technical details, use cases,
+              and
+              more.</p>
+            <a class="card__link-gs">Get started for free</a>
+          </div>
+          <div class="card__links__container">
+            <img src="img/plus.png" alt="" class="card__desc-icon default-icon">
+            <img src="img/minus.png" alt="" class="card__desc-icon hover-icon">
+          </div>
         </div>
-        <div class="card__links__container">
-          <img src="img/plus.png" alt="" class="card__desc-icon default-icon">
-          <img src="img/minus.png" alt="" class="card__desc-icon hover-icon">
-        </div>
-      </div>
 
-      <div class="card">
-        <img class="card__image" src="img/card-2.png" alt="AI Agent 1">
-        <div class="card__content">
-          <h3 class="card__title">Automate RFPs and other questionnaires
-          </h3>
-          <p class="card__description"> Empower your customer-facing teams with 24/7 guidance on product features,
-            technical details, use cases, and more.
-          </p>
-          <a class="card__link-gs">Get started for free</a>
+        <div class="card">
+          <img class="card__image" src="img/card-2.png" alt="AI Agent 1">
+          <div class="card__content">
+            <h3 class="card__title">Automate RFPs and other questionnaires
+            </h3>
+            <p class="card__description"> Empower your customer-facing teams with 24/7 guidance on product features,
+              technical details, use cases, and more.
+            </p>
+            <a class="card__link-gs">Get started for free</a>
+          </div>
+          <div class="card__links__container">
+            <img src="img/plus.png" alt="" class="card__desc-icon default-icon">
+            <img src="img/minus.png" alt="" class="card__desc-icon hover-icon">
+          </div>
         </div>
-        <div class="card__links__container">
-          <img src="img/plus.png" alt="" class="card__desc-icon default-icon">
-          <img src="img/minus.png" alt="" class="card__desc-icon hover-icon">
-        </div>
-      </div>
 
-      <div class="card">
-        <img class="card__image" src="img/card-3.png" alt="AI Agent 1">
-        <div class="card__content">
-          <h3 class="card__title">Instant revenue enablement</h3>
-          <p class="card__description">Empower your customer-facing teams with 24/7 guidance on product features,
-            technical details, use cases, and
-            more.</p>
-          <a class="card__link-gs">Get started for free</a>
-        </div>
-        <div class="card__links__container">
-          <img src="img/plus.png" alt="" class="card__desc-icon default-icon">
-          <img src="img/minus.png" alt="" class="card__desc-icon hover-icon">
+        <div class="card">
+          <img class="card__image" src="img/card-3.png" alt="AI Agent 1">
+          <div class="card__content">
+            <h3 class="card__title">Instant revenue enablement</h3>
+            <p class="card__description">Empower your customer-facing teams with 24/7 guidance on product features,
+              technical details, use cases, and
+              more.</p>
+            <a class="card__link-gs">Get started for free</a>
+          </div>
+          <div class="card__links__container">
+            <img src="img/plus.png" alt="" class="card__desc-icon default-icon">
+            <img src="img/minus.png" alt="" class="card__desc-icon hover-icon">
+          </div>
         </div>
       </div>
     </div>
   </section>
 
+
+  <style>
+    .accel__left {
+      flex: 1;
+    }
+
+    .accel__title {
+      font-size: 44px;
+      font-weight: 700;
+      max-width: 380px;
+      line-height: 1.15;
+      margin-bottom: 40px;
+    }
+
+    .accel__block {
+      margin-bottom: 40px;
+    }
+
+    .accel__block.disabled h3 {
+      color: #b4b4b4;
+    }
+
+    .accel__block h3 {
+      margin: 0 0 10px;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    .accel__block p {
+      max-width: 330px;
+      line-height: 1.5;
+      color: #555;
+      margin: 0;
+    }
+
+    .accel__right {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+    }
+
+    .accel__image {
+      width: 100%;
+      max-width: 450px;
+      border-radius: 20px;
+      display: block;
+    }
+  </style>
+
+
+
+  <section class="sc accel">
+    <div class="field fl">
+      <div class="accel__left">
+        <h1 class="accel__title">Accelerate revenue-generating work with AI</h1>
+
+        <div class="accel__block">
+          <h3>Instant answers</h3>
+          <p>
+            Find trustworthy answers from across your knowledge base. Equip your team
+            with the technical baseline to sell effectively and advise customers.
+          </p>
+        </div>
+
+        <div class="accel__block disabled">
+          <h3>Questionnaires</h3>
+        </div>
+
+        <div class="accel__block disabled">
+          <h3>Agents</h3>
+        </div>
+      </div>
+
+      <div class="accel__right">
+        <div id="">
+          <img src="img/accel__image.png" alt="UI Preview" class="accel__image">
+        </div>
+      </div>
+    </div>
+  </section>
+  <style>
+    .flex {
+      display: flex;
+      align-items: center;
+      /* не обязательно */
+    }
+
+    .left {
+      flex: 1;
+      /* растягивается, занимает всё */
+      background: #e3f2fd;
+    }
+
+    .right {
+      /* white-space: nowrap; */
+      /* чтобы не переносилось */
+      background: #ffcdd2;
+    }
+  </style>
+  <div class="flex">
+    <div class="left">
+      Левый блок — занимает всё доступное пространство
+    </div>
+
+    <div class="right">
+      Правый блок — прижат вправо
+    </div>
+  </div>
 </body>
 
 </html>

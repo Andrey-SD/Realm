@@ -2,6 +2,10 @@ body {
   font-family: $font-inter;
 }
 
+.sc {
+  padding-top: $indent-lg;
+}
+
 .field {
   width: 90%;
   max-width: 1312px;
