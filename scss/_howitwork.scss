@@ -1,0 +1,43 @@
+.hi-work {
+  padding-bottom: $indent-lg;
+
+  &__title {
+    @include heading($font-color-dark, 48px);
+    margin-bottom: 32px;
+  }
+
+  &__review {
+    @include text-description($font-color-dark, 20px);
+    margin-bottom: 52px;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__cards {
+    gap: $indent-sm;
+    margin-top: $indent-sm;
+  }
+
+  &__card {
+    border-top: 2px solid $bg-gr-color;
+    padding-top: 24px;
+    opacity: 0.5;
+  }
+
+  &__card--active {
+    opacity: 1;
+  }
+
+
+  &__card-title {
+    @include heading($font-color-dark, 24px);
+    margin-bottom: 16px;
+    text-align: left;
+  }
+
+  &__card-text {
+    @include side-description($font-color-dark, 18, $align: left, $weight: 400)
+  }
+}

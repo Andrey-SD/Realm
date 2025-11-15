@@ -480,4 +480,67 @@ body {
     grid-column: span 1;
     height: auto;
   }
+}
+
+.hi-work {
+  padding-bottom: 120px;
+}
+.hi-work__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
+  color: #222222;
+  max-width: 936px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+.hi-work__review {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 52px;
+}
+.hi-work__img {
+  width: 100%;
+}
+.hi-work__cards {
+  gap: 32px;
+  margin-top: 32px;
+}
+.hi-work__card {
+  border-top: 2px solid #eeeeee;
+  padding-top: 24px;
+  opacity: 0.5;
+}
+.hi-work__card--active {
+  opacity: 1;
+}
+.hi-work__card-title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
+  color: #222222;
+  max-width: 936px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+  text-align: left;
+}
+.hi-work__card-text {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: left;
+  color: #222222;
 }/*# sourceMappingURL=main.css.map */
