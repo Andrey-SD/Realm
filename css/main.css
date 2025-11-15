@@ -490,9 +490,6 @@ body {
   }
 }
 
-.hi-work {
-  padding-bottom: 120px;
-}
 .hi-work__title {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -815,4 +812,100 @@ body {
   margin-left: 10px;
   margin-bottom: 5px;
   display: inline-block;
+}
+
+.ft {
+  padding: 60px 0;
+  background-color: #000;
+}
+.ft__sup {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+@media (max-width: 768px) {
+  .ft__sup {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+.ft__lc {
+  flex: 1;
+}
+.ft__content {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: center;
+  color: #ffffff;
+  text-align: left;
+}
+.ft__rc {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+@media (max-width: 768px) {
+  .ft__rc {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+.ft__nav-list {
+  list-style: none;
+}
+.ft__nav-list .ft__nav-item {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.7;
+  padding-bottom: 12px;
+}
+.ft__nav-list .ft__nav-item a {
+  color: inherit;
+}
+.ft__nav-list .ft__nav-item:first-child {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: left;
+  color: #ffffff;
+  opacity: 1;
+}
+.ft__sub {
+  justify-content: space-between;
+  align-items: center;
+}
+.ft__sub-info, .ft__sub-social, .ft__sub-links {
+  flex: 1;
+}
+.ft__social-list {
+  justify-content: center;
+}
+.ft__social-list {
+  list-style: none;
+}
+.ft__sub-links {
+  justify-content: right;
+  gap: 24px;
+}
+.ft__sub-link, .ft__sub-text {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: left;
+  color: #ffffff;
+  opacity: 0.7;
 }/*# sourceMappingURL=main.css.map */
