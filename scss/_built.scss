@@ -1,5 +1,4 @@
 .built {
-  padding-bottom: $indent-lg;
 
   &__title {
     @include heading($font-color-dark, 48px);
