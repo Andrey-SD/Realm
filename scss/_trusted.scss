@@ -1,0 +1,133 @@
+.trusted {
+  padding-bottom: $indent-lg;
+  background-color: $bg-gr-color;
+
+  &__title {
+    @include heading($font-color-dark, 48px);
+    margin-bottom: 32px;
+  }
+
+  &__review {
+    @include text-description($font-color-dark, 20px);
+    margin-bottom: 52px;
+
+    a {
+      color: inherit;
+    }
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+  }
+  
+  &__card:not(&__card--big) {
+    aspect-ratio: 0.8/1;
+  }
+
+  &__card {
+    border-radius: 16px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+    position: relative;
+    overflow: hidden;
+    color: #000;
+
+    h2 {
+      font-size: 42px;
+      margin: 10px 0 5px;
+      font-weight: 700;
+    }
+
+    p {
+      margin: 0;
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    &__logo {
+      height: 32px;
+      margin-bottom: auto;
+    }
+
+    &__author {
+      margin-top: auto;
+      @include side-description($font-color-dark, 18px, left, 600);
+      padding-top: 32px;
+      span {
+        font-weight: normal;
+      }
+    }
+
+    &--purple {
+      background: #c7a7ff;
+    }
+
+    &--white {
+      background: #f7f7f7;
+    }
+
+    &--yellow {
+      background: #d8f14a;
+    }
+
+    &--img {
+      position: relative;
+      color: #fff;
+      text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+      background-size: cover;
+      background-position: center;
+      border-radius: 16px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.25); // затемнення
+        z-index: 1;
+        border-radius: 16px;
+      }
+
+      // логотип, заголовок і текст будуть поверх затемнення
+      > * {
+        position: relative;
+        z-index: 2;
+      }
+    }
+
+    &--big {
+      grid-column: 2 / span 2;
+
+      .trusted__card-text {
+        margin: 15px 0;
+        max-width: 450px;
+        line-height: 1.5;
+      }
+    }
+  }
+
+  @media (max-width: 950px) {
+    &__cards {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__card--big {
+      grid-column: span 2;
+    }
+  }
+
+  @media (max-width: 600px) {
+    &__cards {
+      grid-template-columns: 1fr;
+    }
+
+    &__card--big {
+      grid-column: span 1;
+      height: auto;
+    }
+  }
+}
