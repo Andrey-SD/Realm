@@ -1,14 +1,19 @@
 .future {
-  &__container {
-    background-image: url(../img/realm/realm-bg.png);
-    background-size: 100% 100%;
-    border-radius: 12px;
+  padding-bottom: $indent-md;
+  &__header {
+    display: flex;
     justify-content: space-between;
-  }
+    align-items: flex-start;
+    margin-bottom: 32px;
 
-  &__content {
-    flex: 0.8;
-    margin: $indent-lg 80px;
+    & .future__text {
+      flex: 1;
+    }
+
+    & .nav-buttons {
+      display: flex;
+      gap: 8px;
+    }
   }
 
   &__title {
@@ -19,5 +24,63 @@
   &__description {
     @include side-description($font-color-dark, 20px, left);
     margin-bottom: $indent-mds;
+  }
+
+  &__cards {
+    display: flex;
+    gap: $indent-sm;
+    flex-wrap: wrap;
+
+    @media (max-width: 950px) {
+      flex-direction: column;
+    }
+  }
+
+  &__card {
+    flex: 1;
+    padding: 24px;
+    background-image: url(../img/future/card-bg.png);
+    border-radius: 12px;
+
+    &__inner {
+      padding: 16px;
+      background-color: $font-color-light;
+      border-radius: inherit;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__badge {
+      @include text-description($bg-bl-color, 14px);
+      text-align: left;
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 2px 4px;
+      background-color: rgba($bg-bl-color, 0.1);
+      border-radius: 4px;
+      margin-bottom: 16px;
+    }
+
+    &__title {
+      @include side-description($font-color-dark, 20px, left, 600);
+      margin-bottom: 32px;
+    }
+
+    &__link {
+      @include side-description($font-color-dark, 16px, left, 600);
+      margin-top: auto;
+      text-decoration: underline;
+
+      &::after {
+        content: " ›";
+        @include side-description($font-color-dark, 16px, left, 400);
+        font-size: 1.5em;
+        vertical-align: middle;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        display: inline-block;
+      }
+    }
   }
 }
