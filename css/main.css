@@ -696,4 +696,35 @@ body {
   .realm__side-img {
     width: 100%;
   }
+}
+
+.future__container {
+  background-image: url(../img/realm/realm-bg.png);
+  background-size: 100% 100%;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+.future__content {
+  flex: 0.8;
+  margin: 120px 80px;
+}
+.future__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: left;
+  color: #222222;
+  margin-bottom: 16px;
+}
+.future__description {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: left;
+  color: #222222;
+  margin-bottom: 52px;
 }/*# sourceMappingURL=main.css.map */
