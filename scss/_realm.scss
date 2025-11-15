@@ -1,0 +1,68 @@
+.realm {
+  &__container {
+    background-image: url(../img/realm/realm-bg.png);
+    background-size: 100% 100%;
+    border-radius: 12px;
+    justify-content: space-between;
+  }
+
+  &__content {
+    flex: 0.8;
+    margin: $indent-lg 80px;
+  }
+
+  &__title {
+    @include side-description($font-color-light, 48px, left, 700);
+    margin-bottom: 16px;
+  }
+
+  &__description {
+    @include side-description($font-color-light, 20px, left);
+    margin-bottom: $indent-mds;
+  }
+
+  &__img-container {
+    padding-top: 50px;
+    flex: 1.2;
+    position: relative;
+  }
+
+  &__side-img {
+    height: 90%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  @media (max-width: 950px) {
+    &__container {
+      flex-direction: column;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    &__content {
+      margin: 0 0 40px 0;
+    }
+
+    &__img-container {
+      width: 100%;
+      padding-top: 0;
+      height: auto;
+      position: relative;
+    }
+
+    &__side-img {
+      position: static;
+      height: auto;
+      width: 80%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  @media (max-width: 600px) {
+    &__side-img {
+      width: 100%;
+    }
+  }
+}

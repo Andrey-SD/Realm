@@ -547,9 +547,6 @@ body {
   color: #222222;
 }
 
-.built {
-  padding-bottom: 120px;
-}
 .built__title {
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -629,4 +626,74 @@ body {
   border-radius: 8px;
   padding: 14px;
   margin-bottom: 28px;
+}
+
+.realm__container {
+  background-image: url(../img/realm/realm-bg.png);
+  background-size: 100% 100%;
+  border-radius: 12px;
+  justify-content: space-between;
+}
+.realm__content {
+  flex: 0.8;
+  margin: 120px 80px;
+}
+.realm__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.realm__description {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: left;
+  color: #ffffff;
+  margin-bottom: 52px;
+}
+.realm__img-container {
+  padding-top: 50px;
+  flex: 1.2;
+  position: relative;
+}
+.realm__side-img {
+  height: 90%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+@media (max-width: 950px) {
+  .realm__container {
+    flex-direction: column;
+    text-align: center;
+    padding: 40px 20px;
+  }
+  .realm__content {
+    margin: 0 0 40px 0;
+  }
+  .realm__img-container {
+    width: 100%;
+    padding-top: 0;
+    height: auto;
+    position: relative;
+  }
+  .realm__side-img {
+    position: static;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+@media (max-width: 600px) {
+  .realm__side-img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=main.css.map */
