@@ -27,7 +27,7 @@
   color: $color;
 }
 
-@mixin side-description($color, $font-size, $align, $weight: 400) {
+@mixin side-description($color, $font-size, $align: left, $weight: 400) {
   font-family: $font-inter;
   font-weight: $weight;
   font-size: $font-size;

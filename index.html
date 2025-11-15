@@ -113,114 +113,39 @@
     </div>
   </section>
 
+  <section class="accel sc">
+    <div class="accel__container field fl">
 
-  <style>
-    .accel__left {
-      flex: 1;
-    }
-
-    .accel__title {
-      font-size: 44px;
-      font-weight: 700;
-      max-width: 380px;
-      line-height: 1.15;
-      margin-bottom: 40px;
-    }
-
-    .accel__block {
-      margin-bottom: 40px;
-    }
-
-    .accel__block.disabled h3 {
-      color: #b4b4b4;
-    }
-
-    .accel__block h3 {
-      margin: 0 0 10px;
-      font-size: 20px;
-      font-weight: 700;
-    }
-
-    .accel__block p {
-      max-width: 330px;
-      line-height: 1.5;
-      color: #555;
-      margin: 0;
-    }
-
-    .accel__right {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-    }
-
-    .accel__image {
-      width: 100%;
-      max-width: 450px;
-      border-radius: 20px;
-      display: block;
-    }
-  </style>
-
-
-
-  <section class="sc accel">
-    <div class="field fl">
-      <div class="accel__left">
+      <div class="accel__left fl">
         <h1 class="accel__title">Accelerate revenue-generating work with AI</h1>
+        <div class="accel__item_container fl">
+          <div class="accel__item">
+            <h3 class="accel__item-title">Instant answers</h3>
+            <p class="accel__item-text">
+              Find trustworthy answers from across your knowledge base. Equip your team
+              with the technical baseline to sell effectively and advise customers.
+            </p>
+          </div>
 
-        <div class="accel__block">
-          <h3>Instant answers</h3>
-          <p>
-            Find trustworthy answers from across your knowledge base. Equip your team
-            with the technical baseline to sell effectively and advise customers.
-          </p>
-        </div>
+          <div class="accel__item accel__item--disabled">
+            <h3 class="accel__item-title">Questionnaires</h3>
+          </div>
 
-        <div class="accel__block disabled">
-          <h3>Questionnaires</h3>
-        </div>
-
-        <div class="accel__block disabled">
-          <h3>Agents</h3>
+          <div class="accel__item accel__item--disabled">
+            <h3 class="accel__item-title">Agents</h3>
+          </div>
         </div>
       </div>
 
       <div class="accel__right">
-        <div id="">
-          <img src="img/accel__image.png" alt="UI Preview" class="accel__image">
-        </div>
+        <img src="img/accel__image.png" alt="UI Preview" class="accel__image">
       </div>
+
     </div>
   </section>
-  <style>
-    .flex {
-      display: flex;
-      align-items: center;
-      /* не обязательно */
-    }
 
-    .left {
-      flex: 1;
-      /* растягивается, занимает всё */
-      background: #e3f2fd;
-    }
 
-    .right {
-      /* white-space: nowrap; */
-      /* чтобы не переносилось */
-      background: #ffcdd2;
-    }
-  </style>
-  <div class="flex">
-    <div class="left">
-      Левый блок — занимает всё доступное пространство
-    </div>
 
-    <div class="right">
-      Правый блок — прижат вправо
-    </div>
-  </div>
 </body>
 
 </html>
