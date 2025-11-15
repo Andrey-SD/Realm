@@ -19,9 +19,9 @@
   margin: 0 auto;
 }
 
-@mixin text-description($color, $font-size) {
+@mixin text-description($color, $font-size, $weight: 400) {
   font-family: $font-inter;
-  font-weight: 400;
+  font-weight: $weight;
   font-size: $font-size;
   line-height: 1.5;
   letter-spacing: 0;
