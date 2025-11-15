@@ -380,6 +380,8 @@ body {
 }
 .trusted__review a {
   color: inherit;
+  font-weight: bold;
+  text-decoration: underline;
 }
 .trusted__cards {
   display: grid;
@@ -543,4 +545,88 @@ body {
   letter-spacing: 0;
   text-align: left;
   color: #222222;
+}
+
+.built {
+  padding-bottom: 120px;
+}
+.built__title {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
+  color: #222222;
+  max-width: 936px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+.built__description {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 32px;
+}
+.built__review {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 52px;
+}
+.built__review a {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.built__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+.built__card {
+  background-color: #eeeeee;
+  border-radius: 12px;
+  padding: 32px;
+}
+.built__card h3 {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  text-align: center;
+  color: #222222;
+  max-width: 936px;
+  margin: 0 auto;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.built__card p {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0;
+  text-align: left;
+  color: #222222;
+}
+.built__card:hover {
+  background-color: #146EF5;
+  border-radius: 12px;
+}
+.built__card__icon {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 14px;
+  margin-bottom: 28px;
 }/*# sourceMappingURL=main.css.map */
