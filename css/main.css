@@ -124,6 +124,12 @@ body {
   background-color: #146EF5;
 }
 
+.btn--transparent {
+  padding: 12px 24px;
+  border-radius: 10px;
+  border: 1px solid #ffffff;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
